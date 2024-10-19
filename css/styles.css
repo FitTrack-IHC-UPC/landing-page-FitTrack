@@ -17,6 +17,54 @@ body{
 /*--------- Sección de Recetas Populares ---------*/
 
 /*--------- Sección de Testimonios ---------*/
+/* Para el título*/
+.titulo_testimonios {
+    background-color: black;
+    font-size: 2.5rem;
+    font-weight: 350; 
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 30px 0px 10px 0px;
+    color: white;
+}
+
+/* Contenedor principal */
+.container_testimonios {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+/* Estilo general para cada testimonio */
+.testimonio {
+    flex: 1; 
+    max-width: 30%; 
+    margin: 10px;
+    text-align: center; 
+}
+
+/* Estilo para las imágenes en los testimonios */
+.testimonio img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los párrafos en los testimonios */
+.container_testimonios .testimonio p {
+    font-size: 0.9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    line-height: 2.0;
+}
 
 /*--------- Sección de Conoce a Nuestro Equipo ---------*/
 
@@ -35,3 +83,43 @@ body{
 /*--------- Sección de Footer ---------*/
 
 /*--------- Media Queries ---------*/
+
+/* (móviles) */
+@media (max-width: 768px) {
+    .container_testimonios {
+        flex-direction: column; 
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+    }
+    
+    .testimonio {
+        max-width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .testimonio img {
+        width: 250px; 
+    }
+
+    .container_testimonios .testimonio p {
+        font-size: 1rem; 
+        text-align: center; 
+    }
+
+    .titulo_testimonios {
+        font-size: 1.8rem;
+        padding: 20px 0px; 
+    }
+}
+
+/* (móviles pequeños) */
+@media (max-width: 480px) {
+    .testimonio img {
+        width: 200px; /* Más pequeña aún en móviles pequeños */
+    }
+
+    .titulo_testimonios {
+        font-size: 1.5rem; /* Título más pequeño para móviles pequeños */
+    }
+}
