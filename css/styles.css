@@ -3,9 +3,94 @@ body{
 }
 
 /*--------- Barra de Navegación ---------*/
+.navbar {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar img {
+    width: 150px;
+    height: auto;
+}
+.linea-blanca {
+    border: none;
+    border-top: 1px solid white; 
+    margin: 0px;
+    padding: 0px; 
+}
 
 /*--------- Sección de Introducción ---------*/
+.introduccion {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
 
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+}
+
+.titulo img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.titulo h1 {
+    text-align: left;
+    font-size: 6.0rem;
+    font-weight: 350;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 60px;
+    margin-right: 140px;
+}
+.intro_texto {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 100px;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.intro_boton {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-right: 200px;
+    font-size: 1.7rem;
+}
+
+.intro_boton .boton1 {
+    background-color: #896CFE;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-color: #896CFE;
+}
+.intro_boton .boton2 {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-color: gray;
+}
+
+.introduccion_imagen img {
+    width: 600px;
+    height: auto;
+    margin-right: 50px;
+}
 /*--------- Sección Acerca de Nosotros ---------*/
 
 /*--------- Sección de Beneficios Exclusivo ---------*/
@@ -120,6 +205,37 @@ body{
 /*--------- Media Queries ---------*/
 /* Pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
+    /* Sección de Introducción */
+    .introduccion {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo img {
+        margin-left: 0;
+    }
+
+    .titulo h1 {
+        margin: 20px 0;
+        font-size: 2.5rem;
+    }
+
+    .intro_texto {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+
+    .intro_boton {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1.2rem;
+    }
+
+    .introduccion_imagen img {
+        max-width: 100%;
+        margin-right: 0;
+    }
     /* Sección de Testimonios */
     .container_testimonios {
         flex-direction: column; 
@@ -160,8 +276,22 @@ body{
     }
 }
 
+
 /* móviles pequeños */
 @media (max-width: 480px) {
+    /* Sección de Introducción */
+    .titulo h1 {
+        font-size: 2rem;
+    }
+
+    .intro_texto {
+        font-size: 1rem;
+    }
+
+    .intro_boton .boton1, .intro_boton .boton2 {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
     /* Sección de Testimonios */
     .testimonio img {
         width: 200px;
