@@ -1,307 +1,100 @@
-body{
-    background-color: black;
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
 }
 
-/*--------- Barra de Navegación ---------*/
-.navbar {
-    background-color: black;
-    font-family: 'Poppins', sans-serif;
+body {
+    background-color: #D9D9D9;
 }
 
-.navbar img {
-    width: 150px;
-    height: auto;
-}
-.linea-blanca {
-    border: none;
-    border-top: 1px solid white; 
-    margin: 0px;
-    padding: 0px; 
-}
-
-/*--------- Sección de Introducción ---------*/
-.introduccion {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-}
-
-.titulo {
-    display: flex;
-    justify-content: space-between;
-    color: yellow;
-}
-
-.titulo img {
-    width: 200px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-}
-
-.titulo h1 {
-    text-align: left;
-    font-size: 6.0rem;
-    font-weight: 350;
-    letter-spacing: 1px;
-    font-style: italic;
-    margin-top: 60px;
-    margin-right: 140px;
-}
-.intro_texto {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px 100px;
-    text-align: left;
-    font-style: italic;
-    font-size: 1.3rem;
-}
-
-.intro_boton {
-    color: white;
-    font-family: 'Poppins', sans-serif;
+/* Estilos de Planes */
+.planes {
+    padding: 30px 0;
+    background-color: #D9D9D9;
     text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 150px;
-    padding-right: 200px;
-    font-size: 1.7rem;
 }
 
-.intro_boton .boton1 {
-    background-color: #896CFE;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-color: #896CFE;
-}
-.intro_boton .boton2 {
-    background-color: gray;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-color: gray;
+.planes h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 
-.introduccion_imagen img {
-    width: 600px;
-    height: auto;
-    margin-right: 50px;
-}
-/*--------- Sección Acerca de Nosotros ---------*/
-
-/*--------- Sección de Beneficios Exclusivo ---------*/
-
-/*--------- Sección de Ejercicios Populares ---------*/
-
-/*--------- Sección de Programas de Entrenamiento ---------*/
-
-/*--------- Sección de Recetas Populares ---------*/
-
-/*--------- Sección de Testimonios ---------*/
-/* Para el título */
-.titulo_testimonios {
-    background-color: black;
-    font-size: 2.5rem;
-    font-weight: 350; 
-    letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 0px;
-    padding: 30px 0px 10px 0px;
-    color: white;
-}
-
-/* Contenedor principal */
-.container_testimonios {
-    background-color: black;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+.planes-container {
     display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
-    padding-left: 140px;
-    padding-right: 140px;
 }
 
-/* Estilo  para cada testimonio */
-.testimonio {
-    flex: 1; 
-    max-width: 30%; 
-    margin: 10px;
-    text-align: center; 
+.plan-card {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    justify-content: space-between;
 }
 
-/* Estilo para las imágenes */
-.testimonio img {
-    width: 350px;
-    height: auto;
+.plan-card:hover {
+    transform: translateY(-10px);
+}
+
+.plan-card h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-card ul {
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.plan-card li {
+    font-size: 16pxem;
     margin-bottom: 15px;
 }
 
-/* Estilo para los párrafos */
-.container_testimonios .testimonio p {
-    font-size: 0.9rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: left;
-    line-height: 2.0;
+.btn-free,
+.btn-anual,
+.btn-mensual {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #896CFE;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: auto;
 }
 
-/*--------- Sección de Conoce a Nuestro Equipo ---------*/
-
-/*--------- Sección de Video Explicativo ---------*/
-
-/*--------- Sección de Nuestros Planes - Precios ---------*/
-
-/*--------- Sección de Explora Nuestra App ---------*/
-
-/*--------- Sección de Pregruntas Frecuentes ---------*/
-
-/*--------- Sección de Casos de Éxito ---------*/
-
-/*--------- Sección de Contacto ---------*/
-
-/*--------- Sección de Footer ---------*/
-.footer {
-    background-color: black;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-wrap: wrap; 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center; 
+.btn-anual{
+    background-color: #BECA56;
+    color: #000;
 }
 
-.footer_contacto {
-    line-height: 0.8;
+.btn-free:hover,
+.btn-mensual:hover {
+    background-color: #6e45cc; 
 }
 
-.footer_redes {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center;
-    flex: 1;
-    padding-right: 20%;
-    letter-spacing: 1px;
+.btn-anual:hover{
+    background-color: #a3b043;
 }
-
-
-.footer_redes img {
-    width: 20px;
-    height: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-/*--------- Media Queries ---------*/
-/* Pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
-    /* Sección de Introducción */
-    .introduccion {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .titulo img {
-        margin-left: 0;
-    }
-
-    .titulo h1 {
-        margin: 20px 0;
-        font-size: 2.5rem;
-    }
-
-    .intro_texto {
-        padding: 10px 20px;
-        font-size: 1.1rem;
-    }
-
-    .intro_boton {
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 1.2rem;
-    }
-
-    .introduccion_imagen img {
-        max-width: 100%;
-        margin-right: 0;
-    }
-    /* Sección de Testimonios */
-    .container_testimonios {
-        flex-direction: column; 
-        padding-left: 20px;
-        padding-right: 20px;
-        align-items: center; 
-    }
-    
-    .testimonio {
-        max-width: 100%; 
-        margin-bottom: 20px;
-    }
-
-    .testimonio img {
-        width: 250px; 
-    }
-
-    .container_testimonios .testimonio p {
-        font-size: 1rem;
-        text-align: center; 
-    }
-
-    .titulo_testimonios {
-        font-size: 1.8rem; 
-        padding: 20px 0px;
-    }
-    /* Footer */
-    .footer {
-        flex-direction: column; 
-        justify-content: center; 
-    }
-    .footer_redes {
-        padding-right: 0px;
-    }
-    .footer_redes img {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-
-
-/* móviles pequeños */
-@media (max-width: 480px) {
-    /* Sección de Introducción */
-    .titulo h1 {
-        font-size: 2rem;
-    }
-
-    .intro_texto {
-        font-size: 1rem;
-    }
-
-    .intro_boton .boton1, .intro_boton .boton2 {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-    }
-    /* Sección de Testimonios */
-    .testimonio img {
-        width: 200px;
-    }
-
-    .titulo_testimonios {
-        font-size: 1.5rem; 
-    }
-    /* Footer */
-    .footer_redes img {
-        width: 18px; 
-    }
+.destacado {
+    background-color: #896CFE;
 }
