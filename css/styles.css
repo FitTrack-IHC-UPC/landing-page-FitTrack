@@ -13,6 +13,7 @@ body {
 /*--------- Barra de Navegación ---------*/
 .navbar {
     background-color: black;
+    text-align: end;
 }
 
 .navbar img {
@@ -28,6 +29,7 @@ body {
 
 /*--------- Sección de Introducción ---------*/
 .introduccion {
+    padding: 30px 20px;
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -36,7 +38,7 @@ body {
 .titulo {
     display: flex;
     justify-content: space-between;
-    color: yellow;
+    color: #BECA56;
 }
 
 .titulo img {
@@ -106,8 +108,8 @@ body {
 
 /* Estilos de Recetas Populares */
 .recetas-populares {
-    padding: 30px 0;
-    max-width: 60%;
+    padding: 30px 20px;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -147,6 +149,16 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+@media (max-width: 1024px) {
+    .grid-recetas {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    }
+}
+@media (max-width: 768px) {
+    .grid-recetas {
+        grid-template-columns: 1fr; /* 1 columna */
+    }
 }
 
 .receta {
@@ -290,7 +302,7 @@ body {
 
 /*--------- Sección de Planes ---------*/
 .planes {
-    padding: 30px 0;
+    padding: 30px 20px;
     background-color: #D9D9D9;
     text-align: center;
 }
@@ -384,7 +396,7 @@ body {
 /*--------- Sección de Casos de Éxito ---------*/
 .casos-exito {
     background-color: #000;
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
 }
 
@@ -440,9 +452,9 @@ body {
 
 /* Estilos de Contacto */
 .contact-section {
-    max-width: 48%;
+    max-width: 900px;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: left;    
 }
 
@@ -547,7 +559,9 @@ form {
         text-align: center;
     }
     .titulo img {
-        margin-left: 0;
+        margin-left: 20px; 
+        height: auto;
+        width: 200px;
     }
 
     .titulo h1 {
@@ -678,6 +692,11 @@ form {
 /* móviles pequeños */
 @media (max-width: 480px) {
     /*--------- Sección de Introducción ---------*/
+    .titulo img {
+        margin-left: 20px;
+        width: 180px;
+    }
+
     .titulo h1 {
         font-size: 2rem;
     }
