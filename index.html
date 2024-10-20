@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>FitTrack</title>
     <meta name="description" content="FitTrack es una plataforma que te permite llevar un control sobre tus rutinas de vida saludable."
@@ -136,7 +137,7 @@
   </section>
 
     <!-- Sección de Testimonios -->
-    <section id="testimonios">
+  <section id="testimonios">
     <h2 class="titulo_testimonios"><strong>Testimonios</strong></h2>
     <div class="container_testimonios">
       <div class="testimonio testimonio1">
@@ -160,10 +161,51 @@
             ¡Es súper fácil de usar!"<strong> - María López, 25 años.</strong> 
           </p>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
     <!-- Sección de Conoce a Nuestro Equipo -->
-
+  <div class="nuestro_equipo">
+    <h1><strong>Conoce a Nuestro Equipo</strong></h1>
+    <div class="equipo">
+      <div class="miembro">
+        <img src="assets_images/NuestroEquipo/Sergio.png" alt="Sergio">
+        <h4>Sergio Saavedra</h4>
+        <p>
+          <strong>Co-Fundador y Desarrollador Backend de FitTrack.</strong>
+          Sergio se enfoca en la creación de sistemas eficientes y escalables, garantizando que la infraestructura
+          técnica de FitTrack sea robusta y optimizada para un rendimiento ágil.
+        </p>
+      </div>
+      <div class="miembro">
+        <img src="assets_images/NuestroEquipo/Andre.png" alt="Andre">
+        <h4>Andre Chipana</h4>
+        <p>
+          <strong>Co-Fundador y Desarrollador Frontend de FitTrack.</strong>
+          Apasionado por el desarrollo web, Andre domina tecnologías como React y Angular, con las cuales crea
+          interfaces intuitivas, accesibles y atractivas para los usuarios de FitTrack.
+        </p>
+      </div>
+      <div class="miembro">
+        <img src="assets_images/NuestroEquipo/Edison.png" alt="Edison">
+        <h4>Edison Coaguila</h4>
+        <p>
+          <strong>Co-Fundador y Especialista en Ciencia de Datos de FitTrack.</strong>
+          Enfocado en aplicar la ciencia de datos y la inteligencia artificial, Edison lidera el diseño de algoritmos
+          predictivos para la plataforma de FitTrack, ayudando a los usuarios a monitorear su salud con datos
+          personalizados. 
+        </p>
+      </div>
+      <div class="miembro">
+        <img src="assets_images/NuestroEquipo/Alvaro.png" alt="Alvaro">
+        <h4>Alvaro De Cossio</h4>
+        <p>
+          <strong>Co-Fundador y Desarrollador Full-Stack de FitTrack.</strong>
+          Con sólidos conocimientos en C++, Java y Python, Alvaro trabaja en el desarrollo tanto del frontend como
+          del backend de la plataforma. Su habilidad para integrar tecnologías de ambos lados asegura un desarrollo
+          integral y de alta calidad.
+        </p>
+      </div>
+  </div>
     <!-- Sección de Video Explicativo -->
 
     <!-- Sección de Planes -->
@@ -174,6 +216,7 @@
           <div class="plan-card">
               <h3>Plan Free</h3>
               <p class="price">S/0.00</p>
+              
               <ul>
                   <li>Gestión y personalización de metas de salud personales.</li>
                   <li>Seguimiento personalizado de su progreso.</li>
