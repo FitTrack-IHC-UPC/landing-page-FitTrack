@@ -99,7 +99,14 @@ body {
     margin-right: 50px;
 }
 /*--------- Sección Acerca de Nosotros ---------*/
+.Acerca-Texto{
+    
+    text-align:center;
+    margin-top:50px;
+    padding : 10px 200px;
+   
 
+}
 /*--------- Sección de Beneficios Exclusivo ---------*/
 
 /*--------- Sección de Ejercicios Populares ---------*/
