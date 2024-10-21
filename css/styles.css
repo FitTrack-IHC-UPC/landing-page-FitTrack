@@ -27,13 +27,16 @@ body{
     text-align: center;
     background-color: #000000;  
 }
+.video-raw{
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    
+}   
 .video{
-    width: 100%;
-    display:flex;
-    flex-direction:column ;
-    justify-content:center ;
-    align-items: center;
-    padding: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 208px ;
 }
 .header-video{
     display: flex;
