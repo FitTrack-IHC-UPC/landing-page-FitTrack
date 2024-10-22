@@ -661,7 +661,7 @@ form {
     .introduccion_imagen img {
         max-width: 300px;
     }
-}
+
     /*--------- Sección Acerca de Nosotros ---------*/
 
     /*--------- Sección de Beneficios Exclusivo ---------*/
@@ -765,8 +765,6 @@ form {
         margin-right: 5px;
     }
 }
-
-
 /* móviles pequeños */
 @media (max-width: 480px) {
     /*--------- Sección de Introducción ---------*/
@@ -787,14 +785,6 @@ form {
         font-size: 0.9rem;
         padding: 8px 16px;
     }
-    /*--------- Sección Acerca de Nosotros ---------*/
-
-    /*--------- Sección de Beneficios Exclusivo ---------*/
-
-    /*--------- Sección de Ejercicios Populares ---------*/
-
-    /*--------- Sección de Programas de Entrenamiento ---------*/
-
 
     /*--------- Sección de Recetas Populares ---------*/
     .grid-recetas {
@@ -818,7 +808,6 @@ form {
         flex-direction: column; 
         text-align: center;
     }
-
 
     /* Sección de Testimonios */
     .testimonio img {
@@ -854,19 +843,6 @@ form {
         margin-right: 10px;
     }
 
-    /*--------- Sección de Video Explicativo ---------*/
-
-    /*--------- Sección de Planes ---------*/
-
-    /*--------- Sección de Explora Nuestra App ---------*/
-
-    /*--------- Sección de Preguntas Frecuentes ---------*/
-
-    /*--------- Sección de Casos de Éxito ---------*/
-
-    /*--------- Sección de Contacto ---------*/
-
-    /*--------- Sección de Footer ---------*/
     .footer_redes img {
         width: 18px; 
     }
