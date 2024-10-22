@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html = lang = "es">
+<html = lang = "en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>FitTrack</title>
+
     <meta name="description" content="FitTrack es una plataforma que te permite llevar un control sobre tus rutinas de vida saludable."
     />
     <meta name="keywords" content="FitTrack, salud, vida, rutinas, ejercicio, alimentación, saludable, estres"
     />
-    <!--Fuente Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- <meta name="robots" content="index, follow"> --> <!-- Para que los motores de búsqueda indexen la página -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -27,88 +22,13 @@
 </head>
 
 <body>
+    <h1>Bienvenido a FitTrack</h1><!-- Borrar luego -->
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="assets_images/Header/logo.png" alt="Logo FitTrack"/>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li >
-              <a class="nav-link" href="#testimonios">TESTIMONIOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#beneficios">BENEFICIOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#planes">PLANES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">CONTACTO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#login">LOGIN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#signup">SIGN UP</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <hr class="linea-blanca">
-    
-    <!-- Sección de introducción (Llamada a la acción) -->
-    <div class="introduccion">
-      <div class="introduccion_descripcion">
-        <div class="titulo">
-          <img src="assets_images/Header/intro_logo.png" alt="Logo FitTrack">
-          <h1><strong>FIT</strong>TRACK</string></h1>
-        </div>
-        <div class="intro_texto">
-          <p>Tu plataforma integral para mejorar tu calidad de vida.</p>
-          <p>Establece metas personalizadas, sigue tu progreso con gráficos, accede a recursos de bienestar
-            y mantente en el camino con notificaciones inteligentes.
-          </p>
-          <p>¡Empieza hoy tu viaje hacia una vida más saludable!</p>
-        </div>
-        <div class="intro_boton">
-          <p><strong>“Tu camino hacia una vida saludable comienza aquí"</strong></p>
-          <!--SIGN UP-->
-          <div class="grupo_botones">
-            <a href="#signup" class="btn btn-light boton1">EMPEZAR</a>
-            <!--EXPLORA NUESTRA APP-->
-            <a href="#about" class="btn btn-secondary boton2">PREVISUALIZAR</a>
-        </div>
-        </div>
-      </div>
-      <div class="introduccion_imagen">
-        <img src="assets_images/Header/ejercicio.png" alt="Imagen de introducción">
-      </div>
-    </div>
-    <!-- Sección Acerca de Nosotros -->
-    <div class = "Presentacion_Acerca">
-      <p></p>
-      <p></p>
-      <div class ="Titulo">
-        <h1 align="center"><strong>Acerca de nosotros</strong></h1>  
-      </div>
 
-      <div class ="Acerca-Texto">
-          En FitTrack nos enfocamos en mejorar la calidad de vida de las personas del Perú. Nuestra plataforma permite establecer metas de salud personalizadas, mostrar tu progreso mediante gráficos sencillos, acceder a recursos exclusivos y recibir recordatorios y notificaciones inteligentes
-      </div>
+    <!-- Sección de introducción (Llamada a la acción) -->
+
+    <!-- Sección Acerca de Nosotros -->
+
     <!-- Sección de Beneficios Exclusivo -->
 
     <!-- Sección de Ejercicios Populares -->
@@ -116,250 +36,28 @@
     <!-- Sección de Programas de Entrenamiento -->
 
     <!-- Sección de Recetas Populares -->
-    <section class="recetas-populares">
-      <div class="header-recetas">
-          <h2>Recetas Populares</h2>
-          <a href="#" class="ver-mas">VER MÁS RECETAS <span class="triangulo">▸</span></a>
-      </div>
-      <div class="grid-recetas">
-          <div class="receta">
-              <img src="assets_images/Recetas/Ensalada_langostinos.png" alt="Receta 1">
-              <h3>Ensalada con Langostinos</h3>
-          </div>
-          <div class="receta">
-              <img src="assets_images/Recetas/Ensalada_pollo.png" alt="Receta 2">
-              <h3>Ensalada con Pollo</h3>
-          </div>
-          <div class="receta">
-              <img src="assets_images/Recetas/Pollo_plancha.png" alt="Receta 3">
-              <h3>Pollo a la Plancha con Verduras</h3>
-          </div>
-          <div class="receta">
-              <img src="assets_images/Recetas/Tostada_salmon.png " alt="Receta 4">
-              <h3>Tostada con Salmón</h3>
-          </div>
-          <div class="receta">
-              <img src="assets_images/Recetas/Sopa_espinaca.png" alt="Receta 5">
-              <h3>Sopa de Espinaca</h3>
-          </div>
-          <div class="receta">
-              <img src="assets_images/Recetas/Saltado_verduras.png" alt="Receta 6">
-              <h3>Salteado de Verduras con Avena</h3>
-          </div>
-      </div>
-  </section>
 
     <!-- Sección de Testimonios -->
-  <section id="testimonios">
-    <h2 class="titulo_testimonios"><strong>Testimonios</strong></h2>
-    <div class="container_testimonios">
-      <div class="testimonio testimonio1">
-          <img src="assets_images/Testimonios/Diego.png" alt="Testimonio 1">
-          <p>"Estaba buscando una forma de llevar un mejor control de mi alimentación y ejercicio mientras estudio.
-            La app ha sido genial para mantenerme al día y motivado. Las metas personalizadas son justo lo que
-            necesitaba."<strong> - Diego Sánchez, 24 años.</strong>
-          </p>
-      </div>
-      <div class="testimonio testimonio2">
-          <img src="assets_images/Testimonios/Carlos.png" alt="Testimonio 2">
-          <p>"Con esta plataforma he podido adaptar mi rutina de ejercicios a mis necesidades.
-            Me ha permitido mejorar mi bienestar de forma gradual, y los recursos de expertos me han
-            brindado información útil para cuidar mi salud."<strong> - Carlos Gutiérrez, 50 años.</strong>
-          </p>
-      </div>
-      <div class="testimonio testimonio3">
-          <img src="assets_images/Testimonios/Maria.png" alt="Testimonio 3">
-          <p>"Desde que empecé a usar la app, he podido organizar mejor mis metas de salud.
-            Los gráficos me ayudan a visualizar mis progresos, y los recordatorios me mantienen enfocada.
-            ¡Es súper fácil de usar!"<strong> - María López, 25 años.</strong> 
-          </p>
-      </div>
-    </div>
-  </section>
+
     <!-- Sección de Conoce a Nuestro Equipo -->
-  <div class="nuestro_equipo">
-    <h1><strong>Conoce a Nuestro Equipo</strong></h1>
-    <div class="equipo">
-      <div class="miembro">
-        <img src="assets_images/NuestroEquipo/Sergio.png" alt="Sergio">
-        <h4>Sergio Saavedra</h4>
-        <p>
-          <strong>Co-Fundador y Desarrollador Backend de FitTrack.</strong>
-          Sergio se enfoca en la creación de sistemas eficientes y escalables, garantizando que la infraestructura
-          técnica de FitTrack sea robusta y optimizada para un rendimiento ágil.
-        </p>
-      </div>
-      <div class="miembro">
-        <img src="assets_images/NuestroEquipo/Andre.png" alt="Andre">
-        <h4>Andre Chipana</h4>
-        <p>
-          <strong>Co-Fundador y Desarrollador Frontend de FitTrack.</strong>
-          Apasionado por el desarrollo web, Andre domina tecnologías como React y Angular, con las cuales crea
-          interfaces intuitivas, accesibles y atractivas para los usuarios de FitTrack.
-        </p>
-      </div>
-      <div class="miembro">
-        <img src="assets_images/NuestroEquipo/Edison.png" alt="Edison">
-        <h4>Edison Coaguila</h4>
-        <p>
-          <strong>Co-Fundador y Especialista en Ciencia de Datos de FitTrack.</strong>
-          Enfocado en aplicar la ciencia de datos y la inteligencia artificial, Edison lidera el diseño de algoritmos
-          predictivos para la plataforma de FitTrack, ayudando a los usuarios a monitorear su salud con datos
-          personalizados. 
-        </p>
-      </div>
-      <div class="miembro">
-        <img src="assets_images/NuestroEquipo/Alvaro.png" alt="Alvaro">
-        <h4>Alvaro De Cossio</h4>
-        <p>
-          <strong>Co-Fundador y Desarrollador Full-Stack de FitTrack.</strong>
-          Con sólidos conocimientos en C++, Java y Python, Alvaro trabaja en el desarrollo tanto del frontend como
-          del backend de la plataforma. Su habilidad para integrar tecnologías de ambos lados asegura un desarrollo
-          integral y de alta calidad.
-        </p>
-      </div>
-  </div>
+
     <!-- Sección de Video Explicativo -->
-     <section class="video-explicativo">
-        <div class="header-video">
-            <h1>Tu camino hacia una vida <br> saludable <em>comienza aquí!</em></h1>
 
-        </div>
-        <div class="video">
-          <img src="assets_images\VideoExplicativo\Portada.png">
-        </div>
-     </section>
-
-    <!-- Sección de Planes -->
-    <section id="planes" class="planes">
-      <h2>Nuestros Planes</h2>
-      <div class="planes-container">
-          <!-- Plan Free -->
-          <div class="plan-card">
-              <h3>Plan Free</h3>
-              <p class="price">S/0.00</p>
-              
-              <ul>
-                  <li>Gestión y personalización de metas de salud personales.</li>
-                  <li>Seguimiento personalizado de su progreso.</li>
-                  <li>Visualización de su progreso.</li>
-                  <li>Acceso y personalización de rutinas de ejercicios.</li>
-                  <li>Planes alimenticios personalizados.</li>
-              </ul>
-              <button class="btn-free">SELECCIONAR</button>
-          </div>
-
-          <!-- Plan Anual -->
-          <div class="plan-card destacado">
-              <h3>Plan Anual</h3>
-              <p class="price">S/349.99</p>
-              <ul>
-                  <li>Gestión y personalización de metas de salud personales.</li>
-                  <li>Seguimiento personalizado de su progreso.</li>
-                  <li>Visualización de su progreso.</li>
-                  <li>Acceso y personalización de rutinas de ejercicios.</li>
-                  <li>Planes alimenticios personalizados.</li>
-                  <li>Asistencia de profesionales de la salud.</li>
-                  <li>Acceso a recursos para aliviar el estrés.</li>
-              </ul>
-              <button class="btn-anual">SELECCIONAR</button>
-          </div>
-
-          <!-- Plan Mensual -->
-          <div class="plan-card">
-              <h3>Plan Mensual</h3>
-              <p class="price">S/34.99</p>
-              <ul>
-                  <li>Gestión y personalización de metas de salud personales.</li>
-                  <li>Seguimiento personalizado de su progreso.</li>
-                  <li>Visualización de su progreso.</li>
-                  <li>Acceso y personalización de rutinas de ejercicios.</li>
-                  <li>Planes alimenticios personalizados.</li>
-                  <li>Asistencia de profesionales de la salud.</li>
-                  <li>Acceso a recursos para aliviar el estrés.</li>
-              </ul>
-              <button class="btn-mensual">SELECCIONAR</button>
-          </div>
-      </div>
-  </section>
+    <!-- Sección de Nuestros Planes - Precios -->
 
     <!-- Sección de Explora Nuestra App -->
 
     <!-- Sección de Pregruntas Frecuentes -->
 
     <!-- Sección de Casos de Éxito -->
-    <section class="casos-exito">
-      <h2>Casos de éxito</h2>
-      <div class="casos">
-        <div class="caso">
-          <img src="assets_images/CasosExito/Juan.png" alt="Juan P." />
-          <div class="caso-descripcion" style="background-color: #BECA56;">
-            <h3>Juan P., 34 años</h3>
-            <p>"Gracias a FitTrack, logré establecer una rutina diaria de ejercicio y noté una mejora significativa en mi energía y bienestar en solo dos meses."</p>
-          </div>
-        </div>
-
-        <div class="caso">
-          <img src="assets_images/CasosExito/Gym.png" alt="Colaboraciones" />
-          <div class="caso-descripcion" style="background-color: #896CFE;">
-            <h3>Colaboraciones</h3>
-            <p>FitTrack ya está siendo utilizado en varios gimnasios en Lima, donde los entrenadores están utilizando la plataforma para monitorear el progreso de sus clientes y ajustar las rutinas personalizadas.</p>
-          </div>
-        </div>
-
-        <div class="caso">
-          <img src="assets_images/CasosExito/Ana.png" alt="Ana M." />
-          <div class="caso-descripcion" style="background-color: #BECA56;">
-            <h3>Ana M., 28 años</h3>
-            <p>“Con FitTrack, pude organizar mi dieta y reducir el estrés mediante las meditaciones guiadas. Los gráficos me ayudan a visualizar mi progreso.”</p>
-          </div>
-        </div>
-      </div>
-  </section>
 
     <!-- Sección de Contacto -->
-    <section id="contacto" class="contact-section">
-      <div class="contact-form">
-          <h1>Contáctanos</h1>
-          <p>Para todas las consultas, envíenos un correo electrónico utilizando el siguiente formulario.</p>
-          <form action="#" method="post">
-              <div class="input-group">
-                  <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-                  <input type="text" id="apellido" name="apellido" placeholder="Apellido">
-                  <input type="email" id="email" name="email" placeholder="E-mail">
-              </div>
-              <textarea id="mensaje" name="mensaje" rows="8" placeholder="MENSAJE"></textarea>
-              <button type="submit">ENVIAR</button>
-          </form>
-      </div>
-  </section>
 
     <!-- Sección de Footer -->
-
-    <div class="footer">
-        <img src="assets_images/Footer/logo.png" alt="Logo FitTrack">
-        <div class="footer_contacto">
-            <p><strong>CONTACTO:</strong>
-            <p>+51 999 888 321</p>
-            <p>FitTrack@fit.com</p>
-        </div>
-        <div class="footer_redes">
-          <p><strong>© 2024 FITtrack. Todos los derechos reservados</strong></p>
-          <p>
-            Siguenos en 
-            <img class="icon" src="assets_images/Footer/facebook.png" alt="Facebook">
-            <img class="icon" src="assets_images/Footer/instagram.png" alt="Instagram">
-            <img class="icon" src="assets_images/Footer/twitter.png" alt="Twitter">
-          </p>
-        </div>
-    </div>
+     
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
     <script src="js/main.js"></script>
 </body>
 
