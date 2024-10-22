@@ -151,67 +151,95 @@ body {
     }
 }
 
-/*--------- Sección de Beneficios Exclusivo ---------*/
-.beneficios-exclusivos{
-    background-color: #000000
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
+/*--------- Sección de Beneficios Exclusivos ---------*/
+.benefit-body {
     background-color: black;
-    color: white;
+    color: white; 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-.container {
+.benefit-container {
     text-align: center;
     max-width: 1200px;
+    width: 100%;
 }
 
-h1 {
+.benefit-container h1 {
     font-size: 2.5em;
     margin-bottom: 40px;
+    color: white; 
+    font-weight: bolder;
 }
 
 .benefits {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .benefit-item {
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px; 
     width: 23%;
     margin-bottom: 20px;
     text-align: center;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .benefit-item img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 15px;
+    height: 250px; 
+    object-fit: cover; 
 }
 
 .benefit-item h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 10px;
+    color: white;
+    font-weight: bolder;
 }
 
 .benefit-item p {
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.6;
+    color: #cccccc; 
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-item {
+        width: 100%;
+    }
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-item {
+        width: 100%;
+    }
 }
 
 /*--------- Sección de Ejercicios Populares ---------*/
