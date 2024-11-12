@@ -10,4 +10,4 @@
 
 
 
-LINK: https://fittrack-ihc-upc.github.io/landing-page-FitTrack/ 
+# LINK: https://fittrack-ihc-upc.github.io/landing-page-FitTrack/ 
